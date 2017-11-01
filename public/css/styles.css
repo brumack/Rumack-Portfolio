@@ -1,0 +1,217 @@
+  .ui.segment {
+  margin:0;
+  border-radius: 0;
+}
+
+.ui .image i {
+  font-size: 8em;
+  position:relative;
+  top: 8vh;
+}
+
+.ui.button {
+  background-color: #fff;
+  width:6vw;
+}
+
+.hero-text i.icon {
+  font-size:4.5vw;
+}
+.meta {
+  margin: 0 0 0 .5em;
+}
+
+.ui.header {
+  font-family: 'Lobster';
+}
+
+.ui.huge.header {
+  font-size: 7vh;
+}
+
+.ui.huge.header.section-header.projects {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+  font-size:1.33em;
+  font-family: 'Lobster';
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.content a {
+  font-family:'Lobster';
+  color:#fdae84;
+  font-size:3vw;
+}
+
+.content a:hover {
+  color:#A4C7CB;
+}
+
+.ui.card>.content>a.header:hover, .ui.cards>.card>.content>a.header:hover{
+  color:#fdae84;
+}
+
+.ui.card .meta, .ui.cards>.card .meta {
+  margin-top:.5vh;
+  color:#fdae84;
+}
+
+.card-head {
+  background-color:#A4C7CB;
+}
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  height:100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px #000;
+}
+
+.hero-text {
+  font-family:'Roboto';
+  color: #fff;
+  text-align:right;
+  padding-top: 32vh;
+  width:80vw;
+}
+
+.hero-text h1 {
+  color:  #fdae84;
+  font-size:9vw;
+  margin:0;
+}
+
+.hero-text h2 {
+  font-size: 4.5vw;
+  margin: -2vw 0 0 0;
+}
+
+.hero-text a {
+  color: #fdae84;
+}
+
+.hero-text a:hover {
+  color: #fff;
+}
+
+.hero-text .icons {
+  margin-top:2vw;
+}
+
+.hero-text h3 {
+  font-size: 4.5vw;
+  text-align:right;
+  margin-top: 0vw;
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+}
+
+.scroll-down i {
+  font-size:6vw;
+  color:#fdae84;
+  text-shadow: 1px 1px #000;
+  display:block;
+  margin: 0 auto;
+  position:absolute;
+  bottom: 3vh;
+  left:47vw;
+}
+
+.sublocation {
+  width:50%;
+  text-align:
+}
+
+.subheadline h3 {
+  color:#fff;
+  text-shadow: 2px 2px #000;
+  font-size: 5vw;
+  text-align:center;
+}
+
+.scroll-down i:hover {
+  color:white;
+}
+
+.section-container {
+  padding:6vh 0;
+}
+
+.section-container img {
+  height:75px;
+}
+
+.section-header {
+  display: inline-block;
+  text-align:center;
+  width:100%;
+  font-size:8vh;
+}
+
+.skills {
+  background-color: #fff;
+}
+
+.skills h1 img{
+  margin-bottom:5vh;
+}
+
+.skills .ui .card {
+  box-shadow: none;
+}
+
+.skills .ui .grid {
+  padding-top:2vh;
+}
+
+.skills .ui .card .image {
+  height: 20vh;
+  background-color: #A4C7CB;
+  text-align:center;
+}
+
+.projects {
+  background-color: #A4C7CB;
+  text-align:center;
+}
+
+.ui.card .meta, .ui.cards>.card .meta {
+  margin-left: 0;
+}
+
+.content a i {
+  float:right;
+  font-size: 1.5em;
+}
+
+.footer {
+  background-color: #fdae84;
+  padding:3vh;
+}
+
+.footer h5 {
+  margin:0;
+}
+
+.ui.column.grid>[class*="six wide"].column, .ui.grid>.column.row>[class*="six wide"].column, .ui.grid>.row>[class*="six wide"].column, .ui.grid>[class*="six wide"].column {
+  text-align: right;
+}
+
+.column .center {
+  text-align: left;
+}
+
+.copywrite {
+  text-align: center;
+  padding-top:2vh;
+}
