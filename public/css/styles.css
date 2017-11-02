@@ -180,6 +180,30 @@
   text-align:center;
 }
 
+.testimonials {
+  background-color: #fdae84;
+}
+
+.testimonials .section-header {
+  color:#fff;
+  text-shadow: 1px 1px #000;
+}
+
+.testimonials blockquote {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.testimonials p {
+  font-family: 'lato';
+  font-size: 1.25em;
+}
+
+.testimonials a  {
+  font-size: 1.25em;
+}
+
 .projects {
   background-color: #A4C7CB;
   text-align:center;
@@ -187,6 +211,16 @@
 
 .ui.card .meta, .ui.cards>.card .meta {
   margin-left: 0;
+}
+
+iframe {
+  width:100%;
+  height:75%;
+}
+
+.tic iframe {
+  width:50%;
+  height:50%;
 }
 
 .content a i {
