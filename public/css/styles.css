@@ -248,16 +248,14 @@
   margin-left: 0;
 }
 
-.rumackFrame {
-  border: 0;
-  height: 100%;
-  width: auto;
-}
-
 .cardframe {
   border: 0;
-  height: 80%;
-  width: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.simon {
+  width: 60%;
 }
 
 .content a i {
@@ -285,4 +283,8 @@
 .copywrite {
   text-align: center;
   padding-top:2vh;
+}
+
+.ui.cards > .card > .extra, .ui.card > .extra {
+  flex-grow: 100;
 }
